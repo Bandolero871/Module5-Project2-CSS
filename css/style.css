@@ -1,7 +1,7 @@
 
 
 #main-navbar {
-  background-color: red;
+ background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#a8c5ff 29%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%);
   overflow: hidden;
 }
 
@@ -9,6 +9,14 @@
   float: left;
   width: 100%;
   position: relative;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 20px;
 }
 
 #main-navbar ul {
@@ -18,6 +26,7 @@
   position: relative;
   left: 50%;
   float: left;
+  border: hidden;
 }
 
 #main-navbar ul li {
@@ -28,42 +37,28 @@
 }
 
 #main-navbar ul li a {
+  position: relative;
   display: block;
-  padding: 10px 20px;
-  color: gray;
-  text-decoration: none;
+  padding: 15px 60px;
+  background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 light;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #main-navbar ul li a:hover {
-  background-color: gray;
+  background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
 }
 
 #onpage {
-  text-decoration: underline overline;
+  text-decoration: underline;
 }
 
-*/#sidebar {
-  position: fixed;
-  right:0%;
-  background-color: red;
-  height: 100%;
-  width: 20%;
-}
+.container {
+  width: 560px;
+  margin: auto;
+  border: hidden;
+)
 
-#sidebar ul {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-
-#sidebar ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-decoration: none;
-}
-
-#sidebar ul li a:hover {
-  background-color: #000;
-}
-*/
