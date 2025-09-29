@@ -3,57 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Project 2 CSS </title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap" rel="stylesheet">  </head>
   <body>
-    <header>
-      <nav id="main-navbar">
-        <div id="navbar-container">
-          <div id="Welcome to my Resume"><p>Welcome to my Resume!</p></div>
-          <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li id="onpage"><a href="#">Resume</a></li>
-            <li><a href="page3.html">Video Profile</a></li>
-          </ul>
-         </div>
-      </nav>
-    </header>
-    <div id="content-wrapper" class="container">
+    <div class="header"> <!--Class Header contians navbar-->
+      <h1>Welcome to my Resume</h1>
     </div>
-        <main id="main-content">
-    <h1>Alberto's Resume</h1>
-      <img src="media/AI-brain.png" alt="brain" width="475" height="300">
-    <section id="pinfo">
-      <h2>Contact Information</h2>
-      <p>Alberto Martinez</p>
-      <p> Chicago, IL.</p>
-      <p>amartinez74@hawk.illinoistech.edu</p>
-      <p><a href="https://www.linkedin.com/in/amartinez7/">My Linkedin</a></p>
-    </section>
-    <section id="education">
-      <h2>Education</h2>
+    <div id="navbar"> <!--Navbar section-->
+      <div class="navbar-container">
+        <a href="index.html">Homepage</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="page3.html">Video Profile</a>
+      </div>
+    </div>
+
+    <div class="resume-page"> <!--Contains Image-->
+      <img src="media/ai-brain.png" alt="brain" style="width:35%"> <!--Update to image for positioning-->
+    </div>
+  <div class="content"> <!--Resume information-->
+    <h2>Alberto's Resume</h2> <!--update to header-->
+    <h3>Contact Information</h3> <!--update to header-->
+    <p>Alberto Martinez</p>
+    <p>Chicago, IL.</p>
+    <p>amartinez74@hawk.illinoistech.edu</p>
+    <p><a href="https://www.linkedin.com/in/amartinez7/">My Linkedin</a></p>
+    <h3>Education</h3> <!--update to header-->
       <ol>
         <li>Highschool</li>
         <li>Associate's in Applied Science - IT Security Specialist</li>
         <li>Associate's Degree - Computer & Local Area Network Technician</li>
         <li>Bachelors of IT(expected spring 2027)</li>
       </ol>
-      <h2>Certificates</h2>
+    <h3>Certificates</h3><!--update to header-->
       <ol>
         <li>CompTIA A+ - expired 2017</li>
         <li>AWS Cloud Support Assocaite Specialization - Issued Aug 2025</li>
       </ol>
+      <h3>Accolades</h3>
+      <ol>
+        <li>Volunteer Soccer Referee</li>
+        <li>Daisy Award - Rush University Medical Center</li>
+        <li>Daisy Award - Palos Community Hospital</li>
+        <footer>Daisy Award-The DAISY Award is a special honor given to extraordinary nurses/employees for the compassionate contributions they make every day going above and beyond expectations.</footer>
+      </ol>
+    </div>  
     </section>
-    <section id="accolades">
-      <h2>Accolades</h2>
-      <p>      
-      </p>
-    </section>
-    <footer>
+    <footer> <!--footer section-->
       <p>Created by Alberto Martinez</p>
       <address>
         <p><a href="mailto:amartinez74@hawk.illinoistech.edu">amartinez74@hawk.illinoistech.edu</a></p>
