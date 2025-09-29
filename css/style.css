@@ -98,14 +98,6 @@ body {
   list-style-position: inside;
 }
 
-.content ol footer{
-  height: 100px;
-  width: 100%;
-  font-size: small;
-  padding-top: 15px;
-  text-align: left;
-}
-
 iframe{
   display: block;
   padding: 20px;
@@ -113,10 +105,9 @@ iframe{
 }
 
 footer {
-  height: 100px;
-  width: 100%;
-  font-size: medium;
-  padding-top: 20px;
+  padding-top: 2px;
   padding-left: 50px;
-  padding-bottom: 50px
+  padding-bottom: 50px;
+  font-size: small;
+  text-align: left;
 }
