@@ -85,13 +85,13 @@ body {
 
 .content p {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, Tahoma;
   font-size: x-large;
 }
 
 .content li {
   font-size: large;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, Tahoma;
   text-align: justify;
   padding: 4px;
   margin: 0 auto;
